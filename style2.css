@@ -1,0 +1,91 @@
+
+.viewport
+{
+	zoom:1.0;
+	width: extend-to-zoom;
+}
+.-ms-viewport
+{
+	width: extend-to-zoom;
+	zoom:1.0;
+}
+@media screen and (max-width: 959px){
+    #container{
+        width: 100%;
+    }
+    #left-column
+    {
+        width: 70%;
+    }
+    #right-column
+    {
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+#nav-bar
+{
+	position: static;
+	top: 0;
+	z-index: 10;
+}
+
+
+
+.navbar-brand img
+{
+	height: 40px;
+   padding-left: 30px;
+   
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left; 
+}
+#nav-bar ul li a:hover
+{
+	color: gray!important;
+}
+.navbar
+{
+	background: #900C3F;
+}
+.navbar-toggler
+{
+	border: none!important
+}
+.nav-link
+{
+	color: white!important;
+	font-weight: 600;
+	font-size: 16px
+}
+
+	/*-----slider-----*/
+#slider
+{
+	width: 100%
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5
+{
+	color: #fff;
+	font-size: 50px;
+}
